@@ -1,4 +1,4 @@
-chrome.runtime.onMessage.addListener(cmd => {
+/* chrome.runtime.onMessage.addListener(cmd => { // literally dont want any of this
   switch(cmd){
     case 'w':
       browser.tabs.query({currentWindow: true, active: true})
@@ -9,4 +9,4 @@ chrome.runtime.onMessage.addListener(cmd => {
         .then(s => browser.sessions.restore(s[0].sessionId))
     break;
   }
-})
+}) */
