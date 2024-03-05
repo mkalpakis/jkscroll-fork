@@ -16,5 +16,5 @@
       "id": "jkscroll@h43z"
     }
   },
-  "permissions": ["activeTab", "sessions"]
+  "permissions": ["activeTab"]
 }
